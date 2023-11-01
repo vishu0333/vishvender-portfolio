@@ -1,0 +1,176 @@
+<html><head>
+    <title>Your Name - Professional Landing Page</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+body{
+    background-color: rgb(19, 19, 211);
+    color: rgb(16, 27, 25);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(205, 89, 18);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+.left{
+    font-size: 2rem;
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.leftsection{
+    width: 45%;
+    font-size: 2rem;
+}
+.leftsection p{
+    font-size: small;
+}
+.secondSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.secondSection h2{
+    font-size: 2rem;
+}
+.leftsection li{
+    font-size: 2rem;
+    list-style: none;
+}
+.thirdsection{
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+}
+.thirdsection h2{
+    font-size: 2rem;
+}
+.leftsection{
+    font-size: 1.5rem;
+}
+.fourthsection{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin: 23px 0;
+    font-size: 2rem;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right"></div>
+            <ul>
+                <li>About</li>
+                <li>Qualifications</li>
+                <li>Projects</li>
+                <li>Contact Me</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+        <div class="leftsection">Hey, My name is vishvender a passionate Web Developer.
+            <br>
+            <br>
+              <p>
+                Thanks for your interest, here is a quick story of me and this website.
+                Greetings! I am BCA fresher at MD University Rohtak, 
+                I do my work mainly in C-Language, HTML. 
+                This website is basically one of my Web Development project which is built using HTML only.This web designing project is an exciting opportunity for me to blend my academic learning with practical application, setting the stage for a promising career in the dynamic field of web design.
+                I am now seeking opportunities to apply my knowledge and skills in a professional setting where I can contribute meaningfully to projects and continue to grow as a developer. If you're looking for a dedicated and motivated team member, I'd love to connect!
+                
+                Feel free to explore my portfolio and get in touch with me at khatrivishvender@gmail.com
+                <br> Have a nice reading! <br>
+                vishvender
+                </p>
+            </div>
+        <div class="rightsection"><img src="bg1.png" hieght="400" width="500"></div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h2>Projects</h2>
+            <div class="leftsection">
+                <ul>
+                    <li>CV</li>
+                    <li>LOGIN Form</li>
+                    <li>Registration Form</li>
+                    <li>Website</li>
+                </ul>
+            </div>
+            <div class="rightsection"></div>
+        </section>
+        <hr> 
+        <section class="thirdsection">
+            <br>
+            <br>
+        <h2>Qualifications</h2>
+        <br>
+        <div class="leftsection">
+            <h5>Bachelor's Degree</h5>
+            <span>July 2023-Present</span>
+            <p>Currently pursuing Bachelor's in computer science from M.D University,Rohtak.</p>
+            <br>
+            <h5>12th</h5>
+            <span>May 2022-May 2023</span>
+            <p>Completed 12th from Deep classes institute with commerce with IP stream and scored 80%</p>
+            <h5>10th</h5>
+            <span>May 2020-June 2021</span>
+            <p>Completed 10th with 78.4%</p>
+        </div>
+        </section>
+        <br>
+        <hr>
+        <br>
+       <section class="fourthsection">
+        <div class="Contact">Contact Us</div>
+        <form class="cf">
+          <div class="half left cf">
+            <input type="text" id="input-name" placeholder="Name">
+            <br>
+            <input type="email" id="input-email" placeholder="Email address">
+            <br>
+            <input type="text" id="input-subject" placeholder="Subject">
+        <br>    
+        </div>
+        <br>
+          <div class="half right cf">
+
+            <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+            <br>
+          </div>  
+          <br>
+          <input type="submit" value="Submit" id="input-submit">
+          <br>
+        </form>
+       </section>
+       <footer>
+        <nav>
+            <div class="left">Thanks</div>
+            <div class="right">All rights reserved copyright-2005 </div>
+            <h4>Repoert any issue</h4>
+        </nav>
+       </footer>
+    </main>
+
+</body></html>
